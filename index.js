@@ -14,9 +14,9 @@ const handlebars = require('express-handlebars')
   })
   // authenticating connection
   sequelize.authenticate().then(function(){
-    console.log("Database ok")
+    console.log("Databasesss ok")
   }).catch(function(erro){
-    console.log('Database error: '+erro)
+    console.log('Databasesss error: '+erro)
   })
 
 //routes
